@@ -27,6 +27,8 @@ pip install numpy
 pip install torch
 # install torchvision
 pip install torchvision
+# install gym
+pip install gym
 ```
 
 ### Description of the library
@@ -34,5 +36,6 @@ A summary of explanations about libraries:
 * The `stable_baselines3` helps to Implementation of reinforcement learning algorithms.
 * The `numpy` it makes it easy to do math and work with matrices.
 * The `torch vs torchvision` Python  library helps to Matrix multiplication and synthetic algorithm execution.
-
+* The `cv2` helps to Show and working with pictures.
+* The `gym` helps to Create or use default envirenment.
 
