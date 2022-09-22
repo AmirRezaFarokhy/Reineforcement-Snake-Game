@@ -2,7 +2,7 @@
 Making snake game and giving its environment inside reinforcement learning algorithms.
 
 ## Description of use it
-First, you have to run the model.py file and you have to leave it for at least 8 hours to train, and then you can load the model by using the models folder that is created, and put its path in load_model.py.
+First, you have to run the `model.py` file and you have to leave it for at least 8 hours to train, and then you can load the model by using the models folder that is created, and put its path in `load_model.py`.
 
 ## Results
 ![results](https://user-images.githubusercontent.com/113052872/191728344-ef7c7448-5ea3-4a6c-bd6c-70db54013774.gif)
