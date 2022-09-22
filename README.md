@@ -1,13 +1,14 @@
-# Algoritm-trading-Cryptocurrency
-The source code is in Python and covers most of the strategies that use candlestick and indicator principles.
+# Reineforcement-Snake-Game
+Making snake game and giving its environment inside reinforcement learning algorithms.
+
+## Description of use it
+First, you have to run the model.py file and you have to leave it for at least 8 hours to train, and then you can load the model by using the models folder that is created, and put its path in load_model.py.
 
 ## Results
-![result_BolliandBand_ChandlesPattern](https://user-images.githubusercontent.com/113052872/191526718-403d534a-f39f-4257-b67b-9f0efe03d428.png)
-![result_RSI_MA](https://user-images.githubusercontent.com/113052872/191529396-05e8f62c-225a-4944-aec5-cfc25f67563b.png)
-
+![results](https://user-images.githubusercontent.com/113052872/191728344-ef7c7448-5ea3-4a6c-bd6c-70db54013774.gif)
 
 ### Requirements
-Running `Strategy-trading-robot-python` requires:
+Running `Reineforcement-Snake-Game-stable_baselines3` requires:
 * Python 3.8 (tested under Python 3.10.4)
 * stable_baselines3 1.5.0
 * numpy 1.22.3
@@ -18,21 +19,20 @@ Running `Strategy-trading-robot-python` requires:
 ### Installation
 In order to test the script please run the following commands:
 ```sh
-# install pandas
-pip install pandas
+# install stable-baselines3
+pip install stable-baselines3
 # install numpy
 pip install numpy
-# install matplotlib
-pip install matplotlib
-# install cryptocompare
-pip install cryptocompare
+# install torch
+pip install torch
+# install torchvision
+pip install torchvision
 ```
 
 ### Description of the library
 A summary of explanations about libraries:
-* The `stable_baselines3` helps to Do.
+* The `stable_baselines3` helps to Implementation of reinforcement learning algorithms.
 * The `numpy` it makes it easy to do math and work with matrices.
-* The `torch` Python  library helps to Display datas.
-* The `cryptocompare` Python library helps to Download cryptocurrency market data.
+* The `torch vs torchvision` Python  library helps to Matrix multiplication and synthetic algorithm execution.
 
 
