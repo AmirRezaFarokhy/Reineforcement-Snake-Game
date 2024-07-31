@@ -6,7 +6,6 @@ model_dir = "models/1663165320"
 
 env = SnekEnv()
 env.reset()
-
 model_path = f"{model_dir}/20000.zip"
 model = PPO.load(model_path, env=env)
 
